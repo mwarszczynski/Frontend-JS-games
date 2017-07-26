@@ -1,0 +1,165 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #0D111C;
+	color: lightgray;
+	font-size: 28px;
+	font-family: sans-serif, monospace;
+}
+
+#navBar
+{
+	width: 90%;
+	height: 100px;
+	background-color: 120D1C;
+	text-align: center;
+	font-size: 1.4em;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+	#navBarOne  
+	{
+	width: 45%;
+	height: 100%;
+	background-color: #1C6082;
+	text-align: center;
+	font-size: 1.4em;
+	float: left;
+	border-radius: 10px;
+	border: 2px solid #283A85;
+	-moz-box-shadow: 8px 8px 17px #00eb2f;
+	-webkit-box-shadow: 8px 8px 17px #00eb2f;
+	box-shadow: 8px 8px 17px #00eb2f;
+	}
+	
+	#navBarTwo
+	{
+	width: 45%;
+	height: 100%;
+	background-color: #1C6082;
+	text-align: center;
+	font-size: 1.4em;
+	float: right;
+	border-radius: 10px;
+	border: 2px solid #283A85;
+	-moz-box-shadow: 8px 8px 17px #00eb2f;
+	-webkit-box-shadow: 8px 8px 17px #00eb2f;
+	box-shadow: 8px 8px 17px #00eb2f;
+	}
+
+#pojemnik
+{
+	
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #120D1C;
+	
+}
+
+#plansza
+{
+	width: 90%;
+	height: 100px;
+	background-color: #314A6E;
+	border-radius: 19px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #F2B806;
+	-moz-box-shadow: 8px -7px 10px #bdb407;
+	-webkit-box-shadow: 8px -7px 10px #bdb407;
+	box-shadow: 8px -7px 10px #bdb407;
+}
+
+#szubienica
+{
+	width: 90%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#alfabet
+{
+	width: 90%;
+	height: 400px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.litera
+{
+	float: left;
+	margin: 20px;
+	padding: 8px;
+	font-size: 0.8em;
+	border: 1px double gray;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px;
+	transition-property: background-color;
+	transition-duration: 2s;
+	transition-delat: 0.5;
+	
+}
+
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 1px solid red;
+	background-color: #900;
+	transform: rotate(10deg);
+
+}
+
+img
+{
+	border: 2px solid red;
+	border-radius: 20px;
+	-webkit-box-reflect: right 50px -webkit-gradient(linear, center top, center bottom, from(transparent), to(white));
+}
+
+#akapit
+{
+	font-size: 24px;
+	width: 90%;
+}
+     
+p highlighted
+{
+	color: red;
+}
+    
+.reset
+{
+	color: red;
+	cursor: pointer;
+	font-size: 48px;
+	border: 3px solid red;
+	padding: 10px 10px;
+	background-color: #FFEE46;
+	border-radius: 15px;
+	
+}
+}
+.reset:hover{
+	color: blue;
+}
+
+
+
+
+
+
